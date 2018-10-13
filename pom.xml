@@ -34,5 +34,13 @@
 		</plugin>
 	</plugins>
 </build>
+
+<distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>ffile:C:/SamWu/jgitflowtest/distribution</url>
+       </repository>
+  </distributionManagement>
   
 </project>
