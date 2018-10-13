@@ -41,6 +41,6 @@
          <name>Internal repo</name>
          <url>ffile:C:/SamWu/jgitflowtest/distribution</url>
        </repository>
-  </distributionManagement>
+ </distributionManagement>
   
 </project>
