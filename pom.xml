@@ -29,8 +29,11 @@
 			<artifactId>jgitflow-maven-plugin</artifactId>
 			<version>1.0-m5.1</version>
 			<configuration>
-				<!-- see goals wiki page for configuration options -->
-			</configuration>
+		      <flowInitContext>
+		         <masterBranchName>master</masterBranchName>
+		         <developBranchName>branch_test</developBranchName>
+		       </flowInitContext>
+	     </configuration>
 		</plugin>
 	</plugins>
 </build>
@@ -39,7 +42,7 @@
        <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
-         <url>ffile:C:/SamWu/jgitflowtest/distribution</url>
+         <url>file:C:/SamWu/jgitflowtest/distribution</url>
        </repository>
  </distributionManagement>
   
